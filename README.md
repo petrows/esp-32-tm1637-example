@@ -1,4 +1,4 @@
-# esp32-tm1637 LCD library
+# ESP-32 tm1637-driven LCD library example
 
 ## Introduction
 
@@ -27,3 +27,9 @@ The source is available from [petrows/esp-32-tm1637-example](https://github.com/
 ## License
 
 The code in this project is licensed under the MIT license - see LICENSE for details.
+
+Inital idea based on Arduino <tm1637.h> library, written by Frankie.Chu Copyright (c) 2012 seeed technology inc.
+
+## Contacts
+
+ * Email: petro@petro.ws

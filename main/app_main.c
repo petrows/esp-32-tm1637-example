@@ -22,7 +22,7 @@ const gpio_num_t LCD_DTA = CONFIG_TM1637_DIO_PIN;
 
 void lcd_tm1637_task(void * arg)
 {
-	tm1637_lcd_t * lcd = tm1637_init(LCD_CLK, LCD_DTA);
+	tm1637_led_t * lcd = tm1637_init(LCD_CLK, LCD_DTA);
 
 	setenv("TZ", "CET-1CEST-2,M3.5.0/02:00:00,M10.5.0/03:00:00", 1);
 	tzset();
